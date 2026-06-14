@@ -201,14 +201,17 @@ h2{
 
 }
 
-.see-more{
+
+.see-more {
     color:#2162a1;
-    text-decoration:none;
     font-size:14px;
-    
+    padding-top: 20px;   
+    text-decoration: none;
 }
 
+
+
 .see-more:hover{
-    color:#1a89f7;
+    color:#c71f1f;
 }
    
