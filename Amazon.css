@@ -20,13 +20,9 @@
     background-image:url(amazon_logo.png);
     background-size:cover;
     height:50px;
-    width:114px;
-<<<<<<< HEAD
+    width:114px
+}    
 
-    }    
-=======
-}
->>>>>>> c17327218b2fc7c7427ad765ee8f138aedccff32
 
 
 .border{
@@ -35,10 +31,6 @@
 
 .border:hover{
     border:1.5px solid white;
-<<<<<<< HEAD
-
-=======
->>>>>>> c17327218b2fc7c7427ad765ee8f138aedccff32
 }
 
 .first{
