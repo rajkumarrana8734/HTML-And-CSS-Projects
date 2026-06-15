@@ -304,13 +304,13 @@ ul a:hover{
 
 .foot-pannel4{
     background-color:#131a22;
-   
-    height:610px;
+    height:320px;
 }
 
 .pannel4-line{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     
 }
 
