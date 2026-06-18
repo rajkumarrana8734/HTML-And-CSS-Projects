@@ -2,18 +2,65 @@
     margin:0px;
     padding:0px;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar{
     height: 100px;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+    background-color: rgb(32, 34, 31);
+    position:fixed;
 }
+
+.navbar a{
+    text-align: center;
+}
+
+    
 
 .logo{
     background-image: url(resto-logo.png);
     background-size: cover;
     height:85px;
     width:100px;
+}
+
+.nav-menu{
+    display:flex;
+    gap:40px;
+    padding-right:400px;
+}  
+
+.nav-menu a{
+    text-transform:uppercase;
+    font-weight:bold;
+    color:aliceblue;
+    text-decoration: none;
+
+}
+
+.nav-menu a:hover{
+    font-size:20px;
+    color:green;
     
+}
+
+.book{
+    color:white;
+    border-radius: 20px;
+    border:2px solid rgb(215, 215, 121);
+    padding:16px;
+    
+}
+
+.book:hover{
+    font-size:17px;
+    border-color: yellow;
+    color:green;
 }
