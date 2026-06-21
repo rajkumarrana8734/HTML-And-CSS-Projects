@@ -110,8 +110,6 @@
 .section4{
     display: flex;
     justify-content: center;
-    background-image: url(section4.jpg);
-    background-size: cover;
     height:300px;
     align-items: center;
 
@@ -229,7 +227,7 @@
 }
 
 .read:hover{
-    background-color: rgb(255, 157, 0);;
+    background-color: rgb(255, 157, 0);
 }
 
 .dishes{
@@ -285,6 +283,46 @@
   display: inline-block;
   box-shadow: 0 0 8px rgba(229, 169, 59, 0.6); 
 }
+
+.menu{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     border:none;
+}
+
+.menu-box{
+    height: 320px;
+    width:280px;
+    background-size: cover;
+    border-radius: 20px;
+    display: block;
+    padding-top:180px;
+   
+}
+
+.menu-box p{
+    padding-left: 25px;
+    color: white;
+    padding-top:5px;
+     
+}
+
+.menu-box button{
+    margin-left: 25px;
+    margin-top:10px;
+    padding:5px;
+    border-color: rgb(255, 157, 0);
+    border-radius: 20px;
+    font-weight: bold;
+}
+ .menu-box button:hover{
+     background-color: rgb(255, 157, 0);
+
+ }
+
+
+
 
 
 
