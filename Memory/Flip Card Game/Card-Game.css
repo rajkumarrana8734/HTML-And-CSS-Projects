@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ 
+:root {
+  --bg: #241b2f;
+  --bg-soft: #2e2240;
+  --gold: #d4af6a;
+  --cream: #faf6ed;
+  --match: #7fd9a8;
+  --muted: #b8a9c9;
+  --radius: 14px;
+}
+
+body{
+    min-height:100vh;
+    background: var(--bg);
+    background-image: radial-gradient(circle at 20% 15%, rgba(255, 4, 4, 0.131), transparent 90%),
+    radial-gradient(circle at 80% 85%, rgba(255, 0, 255, 0.113), transparent 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:var(--cream);
+    padding:24px;
+}
+
+.app{
+    width:100%;
+    max-width:480px;
+    text-align: center;
+}
+
+
+
+
+
+
+
