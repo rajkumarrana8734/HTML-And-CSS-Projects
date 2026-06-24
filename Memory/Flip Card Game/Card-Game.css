@@ -50,7 +50,16 @@ h1{
     line-height: 1.5;
 }
 
-
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+    background-color: var(--bg-soft);
+    padding:14px;
+    border-radius:20px;
+    box-shadow:0 8px 24px rgba(0, 0, 255, 0.35),
+              0 2px 6px rgba(17, 25, 255, 0.25); ;
+}
 
 
 
