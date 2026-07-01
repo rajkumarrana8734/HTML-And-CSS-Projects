@@ -23,6 +23,7 @@
     background-color:black;
     position: absolute;
     top:0;
+    pointer-events: none;
 }
 
 nav {
@@ -45,11 +46,16 @@ nav img{
 .sign-in{
     background-color:#E50914;
     color:#ffffff;
-    border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border: none;
+    border-radius: 6px;
     position: relative;
     z-index: 10;
-
 }
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
 
